@@ -93,3 +93,27 @@ html {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+.card-right {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 2rem 2rem;
+  z-index: 10;
+}
+
+.red-circle,
+.orange-circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.red-circle {
+  background-color: #eb001b;
+}
+
+.orange-circle {
+  background-color: #ff5f00;
+  margin-left: -2rem;
+  opacity: 0.7;
+}
