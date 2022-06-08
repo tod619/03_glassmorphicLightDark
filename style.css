@@ -2,4 +2,19 @@
 
 * {
   font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card-map {
+  width: 35rem;
+}
+
+.card-chip {
+  width: 6rem;
 }
